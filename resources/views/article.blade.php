@@ -14,6 +14,10 @@
                             {!! $article->content !!}
                         </div>
                     </div>
+
+                    @section('comments')
+                        @include('comments.comments_block', ['essence' => $article])
+                    @endsection
                 </div>
             </div>
         </div>

@@ -15,6 +15,10 @@ class ArticleController extends Controller
 
     public function show(Request $request, $id)
     {
-
+        $article = Article::find($id);
+        if(!$article) {
+            return redirect('/');
+        }
+        return view('article', compact('article'));
     }
 }

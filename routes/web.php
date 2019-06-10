@@ -13,6 +13,8 @@
 
 Route::get('/', 'ArticleController@index');
 
+Route::get('/article/{id}', 'ArticleController@show');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

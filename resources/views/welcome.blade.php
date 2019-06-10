@@ -81,7 +81,7 @@
 
             <div class="content">
                 @foreach ($articles as $article)
-                    {{$article->content}}
+                    {!! $article->content !!}
                     <br>
                 @endforeach
             </div>

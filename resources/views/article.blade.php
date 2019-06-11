@@ -7,6 +7,7 @@
                 <div class="card">
                     <div class="card-header">Dashboard</div>
 
+                    {{-- TODO Article view --}}
                     <div class="card-body">
                        <h3>{{ $article->title }}</h3>
                         <div class="container">

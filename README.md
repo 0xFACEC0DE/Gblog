@@ -1,13 +1,9 @@
-Get Started:
+Installation:
 
-composer install
+1. composer install
 
-setup .env settings
-APP_URL=http://localhost
-DB_HOST=localhost
-DB_DATABASE=homestead
-DB_USERNAME=homestead
-DB_PASSWORD=secret
+2. setup .env DB settings
 
-php artisan migrate
-php artisan voyager:admin your@email.com --create
+3. artisan migrate
+
+4. artisan voyager:admin your@email.com --create

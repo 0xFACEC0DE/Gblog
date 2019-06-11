@@ -149,8 +149,10 @@ return [
         ],
 
         'widgets' => [
-
+            'TCG\\Voyager\\Widgets\\UserDimmer'
         ],
+
+        'google_analytics' => false
 
     ],
 

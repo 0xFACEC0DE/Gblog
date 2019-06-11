@@ -78,7 +78,7 @@
                     @endauth
                 </div>
             @endif
-
+            {{--TODO navbar and article cards --}}
             <div class="content">
                 @foreach ($articles as $article)
                     {!! $article->content !!}
